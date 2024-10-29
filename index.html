@@ -4,86 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Full-Stack Application Banner</title>
-    <style>
-      /* Basic reset */
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        font-family: Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background-color: #f4f4f4;
-      }
-
-      .banner {
-        width: 90%;
-        max-width: 800px;
-        background-color: #ffffff;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
-        display: flex;
-        align-items: center;
-        padding: 20px;
-      }
-
-      .banner img.profile {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        object-fit: cover;
-        margin-right: 20px;
-      }
-
-      .content {
-        flex: 1;
-      }
-
-      .content h1 {
-        font-size: 1.8em;
-        color: #333333;
-        margin-bottom: 10px;
-      }
-
-      .content p {
-        font-size: 1.2em;
-        color: #666666;
-        margin-bottom: 15px;
-      }
-
-      .logos {
-        display: flex;
-        gap: 15px;
-      }
-
-      .logos img {
-        width: 40px;
-        height: 40px;
-        object-fit: contain;
-      }
-    </style>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <div class="banner">
+      <!-- Profile Image -->
       <img src="./assets/me.jpg" alt="Profile" class="profile" />
 
-      <div class="content">
-        <h1>Creating Full-Stack Applications</h1>
-        <p>Expertise in React, MongoDB, Node.js, and Express.js.</p>
+      <!-- Content Section -->
+      <h1>Full-Stack Solutions with React, MongoDB, Node.js, & Express.js.</h1>
+      <p>Scalable, responsive, and tailored to you!</p>
 
-        <div class="logos">
-          <img src="/assets/react.png" alt="React Logo" />
-          <img src="/assets/mongoDB.jpg" alt="MongoDB Logo" />
-          <img src="/assets/node.js.png" alt="Node.js Logo" />
-          <img src="/assets/Expressjs.png" alt="Express.js Logo" />
-        </div>
+      <!-- Logos Section -->
+      <div class="logos">
+        <img src="/assets/react.png" alt="React Logo" />
+        <img src="/assets/mongoDB.jpg" alt="MongoDB Logo" />
+        <img src="/assets/node.js.png" alt="Node.js Logo" />
+        <img src="/assets/Expressjs.png" alt="Express.js Logo" />
       </div>
+
+      <!-- Button -->
+      <button href="#" class="button">Get Started</button>
     </div>
   </body>
 </html>
